@@ -60,7 +60,7 @@ a:hover small {
 
 .wrapper {
   /*width:860px;*/
-  width:1060px;
+  width:1000px;
   /*width:1050px;*/
   /*width:75%;*/
   margin:0 auto;
@@ -177,7 +177,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  /*width:500px;*/
+  width:610px;
   float:right;
   padding-bottom:50px;
 }
