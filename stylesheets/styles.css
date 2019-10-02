@@ -107,7 +107,8 @@ th {
 }
 
 img {
-  max-width:100%;
+  /*max-width:100%;*/
+  width: 250px;
 }
 
 header {
@@ -202,7 +203,11 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1200px) {
+
+  /*img{
+    width: 300px;
+  }*/
 
   div.wrapper {
     width:auto;
@@ -238,6 +243,11 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+  
+  /*img{
+    width: 300px;
+  } */
+
   body {
     word-wrap:break-word;
   }
@@ -256,6 +266,9 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
+  /*img{
+    width: 300px;
+  } */
   body {
     padding:15px;
   }
@@ -270,6 +283,9 @@ footer {
 }
 
 @media print {
+  /*img{
+    width: 300px;
+  } */
   body {
     padding:0.4in;
     font-size:12pt;
